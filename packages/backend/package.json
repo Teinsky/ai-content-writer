@@ -9,8 +9,11 @@
     "start": "node src/server.js"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@google/genai": "^1.31.0",
     "@google/generative-ai": "^0.24.1",
+=======
+>>>>>>> 456eaaa41781806ce0d3922cfa53a4cfd8e9a9cc
     "axios": "^1.6.2",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
