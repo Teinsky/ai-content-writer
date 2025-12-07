@@ -6,10 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import connectDB from "./config/db.js"; // Import kết nối DB
 import authRoutes from "./routes/AuthRoutes.js"; // Import tuyến đường Auth
-<<<<<<< HEAD
 import contentRoutes from "./routes/ContentRoutes.js";
-=======
->>>>>>> 456eaaa41781806ce0d3922cfa53a4cfd8e9a9cc
 
 // Thay đổi load dotenv để lấy đường dẫn tương đối chính xác
 const __filename = fileURLToPath(import.meta.url);
@@ -42,10 +39,7 @@ app.get("/api/health", (req, res) => {
 
 // Gán tuyến đường Auth vào đường dẫn /api/v1/auth
 app.use("/api/v1/auth", authRoutes);
-<<<<<<< HEAD
 app.use("/api/v1/content", contentRoutes);
-=======
->>>>>>> 456eaaa41781806ce0d3922cfa53a4cfd8e9a9cc
 
 // 5. Khởi động Server
 app.listen(PORT, () => {
